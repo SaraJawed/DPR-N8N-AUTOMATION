@@ -1,0 +1,5 @@
+{
+  "webhook_url": "https://your-n8n-instance.com/webhook/dpr-receiver",
+  "project_name": "My DPR Automation",
+  "author": "Sara Jawed"
+}

@@ -1,0 +1,35 @@
+services:
+  n8n:
+    image: n8nio/n8n
+    container_name: n8n
+    restart: always
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_BASIC_AUTH_ACTIVE=false
+      - N8N_HOST=n8n
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - WEBHOOK_URL=http://localhost:5678/
+    volumes:
+      - ./n8n_data:/home/node/.n8n
+    networks:
+      - appnet
+
+  python-app:
+    build:
+      context: .          # ✅ now builds from project root
+      dockerfile: Dockerfile
+    container_name: python-app
+    depends_on:
+      - n8n
+    volumes:
+      - .:/app            # ✅ mounts whole project
+    working_dir: /app
+    command: ["python", "src/dpr_sender.py"]
+    networks:
+      - appnet
+
+networks:
+  appnet:
+    driver: bridge

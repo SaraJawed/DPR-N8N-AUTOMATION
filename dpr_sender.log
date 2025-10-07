@@ -1,0 +1,271 @@
+2025-10-07 13:15:29 | INFO     | 📤 Starting DPR Send Process...
+2025-10-07 13:15:29 | INFO     | ─────────────────────────────────────────────
+2025-10-07 13:15:29 | INFO     | {
+  "date": "2025-10-07",
+  "tasks_completed": [
+    "Fixed webhook connection issue",
+    "Updated API integration for n8n",
+    "Tested DPR auto trigger"
+  ],
+  "issues_faced": [
+    "Docker container restart delay"
+  ],
+  "next_plan": [
+    "Automate report scheduling with cron",
+    "Add success/failure logging"
+  ],
+  "sent_at": "2025-10-07 13:15:29"
+}
+2025-10-07 13:15:29 | INFO     | Attempt 1/3 sending DPR...
+2025-10-07 13:15:29 | INFO     | ✅ DPR sent successfully!
+2025-10-07 13:15:29 | INFO     | Response: {"message":"Workflow was started"}
+2025-10-07 13:15:29 | INFO     | ─────────────────────────────────────────────
+2025-10-07 13:15:29 | INFO     | 🏁 Process Finished
+
+2025-10-07 13:19:35 | INFO     | 📤 Starting Auto-DPR Send Process...
+2025-10-07 13:19:35 | INFO     | ─────────────────────────────────────────────
+2025-10-07 13:19:35 | INFO     | Generated DPR:
+2025-10-07 13:19:35 | INFO     | {
+  "date": "2025-10-07",
+  "tasks_completed": [
+    "Deploy n8n and Python app via Docker",
+    "Improve error handling and logging",
+    "Refactor automation scripts"
+  ],
+  "issues_faced": [
+    "Slow webhook response"
+  ],
+  "next_plan": [
+    "Add daily summary email",
+    "Add Slack notifications"
+  ],
+  "sent_at": "2025-10-07 13:19:35"
+}
+2025-10-07 13:19:35 | INFO     | Attempt 1/3 sending DPR...
+2025-10-07 13:19:35 | INFO     | ✅ DPR sent successfully!
+2025-10-07 13:19:35 | INFO     | Response: {"message":"Workflow was started"}
+2025-10-07 13:19:35 | INFO     | ─────────────────────────────────────────────
+2025-10-07 13:19:35 | INFO     | 🏁 Process Finished
+
+2025-10-07 13:19:42 | INFO     | 📤 Starting Auto-DPR Send Process...
+2025-10-07 13:19:42 | INFO     | ─────────────────────────────────────────────
+2025-10-07 13:19:42 | INFO     | Generated DPR:
+2025-10-07 13:19:42 | INFO     | {
+  "date": "2025-10-07",
+  "tasks_completed": [
+    "Deploy n8n and Python app via Docker",
+    "Optimize webhook response time",
+    "Add database persistence for DPR"
+  ],
+  "issues_faced": [
+    "n8n timeout issue"
+  ],
+  "next_plan": [
+    "Add daily summary email",
+    "Store DPR in PostgreSQL database"
+  ],
+  "sent_at": "2025-10-07 13:19:42"
+}
+2025-10-07 13:19:42 | INFO     | Attempt 1/3 sending DPR...
+2025-10-07 13:19:42 | WARNING  | ⚠️ HTTP 404: {"code":404,"message":"The requested webhook \"dpr-receiver\" is not registered.","hint":"Click the 'Execute workflow' button on the canvas, then try again. (In test mode, the webhook only works for one call after you click this button)"}
+2025-10-07 13:19:45 | INFO     | Attempt 2/3 sending DPR...
+2025-10-07 13:19:45 | WARNING  | ⚠️ HTTP 404: {"code":404,"message":"The requested webhook \"dpr-receiver\" is not registered.","hint":"Click the 'Execute workflow' button on the canvas, then try again. (In test mode, the webhook only works for one call after you click this button)"}
+2025-10-07 13:19:48 | INFO     | Attempt 3/3 sending DPR...
+2025-10-07 13:19:48 | WARNING  | ⚠️ HTTP 404: {"code":404,"message":"The requested webhook \"dpr-receiver\" is not registered.","hint":"Click the 'Execute workflow' button on the canvas, then try again. (In test mode, the webhook only works for one call after you click this button)"}
+2025-10-07 13:19:51 | ERROR    | 🚨 All attempts failed. Check webhook or server logs.
+2025-10-07 13:19:51 | INFO     | ─────────────────────────────────────────────
+2025-10-07 13:19:51 | INFO     | 🏁 Process Finished
+
+2025-10-07 13:24:04 | INFO     | 📤 Starting Auto-DPR Send Process...
+2025-10-07 13:24:04 | INFO     | ─────────────────────────────────────────────
+2025-10-07 13:24:04 | INFO     | Generated DPR:
+2025-10-07 13:24:04 | INFO     | {
+  "date": "2025-10-07",
+  "tasks_completed": [
+    "Integrate Slack notification",
+    "Test Google Sheets integration",
+    "Setup daily automation"
+  ],
+  "issues_faced": [
+    "n8n timeout issue",
+    "Environment variable not loading"
+  ],
+  "next_plan": [
+    "Integrate with Google Sheets API",
+    "Schedule DPR at 6 PM daily",
+    "Add daily summary email"
+  ],
+  "sent_at": "2025-10-07 13:24:04"
+}
+2025-10-07 13:24:04 | INFO     | Attempt 1/3 sending DPR...
+2025-10-07 13:24:04 | INFO     | ✅ DPR sent successfully!
+2025-10-07 13:24:04 | INFO     | Response: {"message":"Workflow was started"}
+2025-10-07 13:24:04 | INFO     | ─────────────────────────────────────────────
+2025-10-07 13:24:04 | INFO     | 🏁 Process Finished
+
+2025-10-07 13:24:15 | INFO     | 📤 Starting Auto-DPR Send Process...
+2025-10-07 13:24:15 | INFO     | ─────────────────────────────────────────────
+2025-10-07 13:24:15 | INFO     | Generated DPR:
+2025-10-07 13:24:15 | INFO     | {
+  "date": "2025-10-07",
+  "tasks_completed": [
+    "Integrate Slack notification",
+    "Refactor automation scripts",
+    "Deploy n8n and Python app via Docker"
+  ],
+  "issues_faced": [
+    "Webhook test mode expired",
+    "Docker container restart delay"
+  ],
+  "next_plan": [
+    "Enable automatic retry system",
+    "Store DPR in PostgreSQL database"
+  ],
+  "sent_at": "2025-10-07 13:24:15"
+}
+2025-10-07 13:24:15 | INFO     | Attempt 1/3 sending DPR...
+2025-10-07 13:24:15 | WARNING  | ⚠️ HTTP 404: {"code":404,"message":"The requested webhook \"dpr-receiver\" is not registered.","hint":"Click the 'Execute workflow' button on the canvas, then try again. (In test mode, the webhook only works for one call after you click this button)"}
+2025-10-07 13:24:18 | INFO     | Attempt 2/3 sending DPR...
+2025-10-07 13:24:18 | WARNING  | ⚠️ HTTP 404: {"code":404,"message":"The requested webhook \"dpr-receiver\" is not registered.","hint":"Click the 'Execute workflow' button on the canvas, then try again. (In test mode, the webhook only works for one call after you click this button)"}
+2025-10-07 13:24:21 | INFO     | Attempt 3/3 sending DPR...
+2025-10-07 13:24:21 | WARNING  | ⚠️ HTTP 404: {"code":404,"message":"The requested webhook \"dpr-receiver\" is not registered.","hint":"Click the 'Execute workflow' button on the canvas, then try again. (In test mode, the webhook only works for one call after you click this button)"}
+2025-10-07 13:24:24 | ERROR    | 🚨 All attempts failed. Check webhook or server logs.
+2025-10-07 13:24:24 | INFO     | ─────────────────────────────────────────────
+2025-10-07 13:24:24 | INFO     | 🏁 Process Finished
+
+2025-10-07 13:24:44 | INFO     | 📤 Starting Auto-DPR Send Process...
+2025-10-07 13:24:44 | INFO     | ─────────────────────────────────────────────
+2025-10-07 13:24:44 | INFO     | Generated DPR:
+2025-10-07 13:24:44 | INFO     | {
+  "date": "2025-10-07",
+  "tasks_completed": [
+    "Test Google Sheets integration",
+    "Setup daily automation"
+  ],
+  "issues_faced": [
+    "Environment variable not loading",
+    "Slow webhook response"
+  ],
+  "next_plan": [
+    "Integrate with Google Sheets API",
+    "Enable automatic retry system",
+    "Add daily summary email"
+  ],
+  "sent_at": "2025-10-07 13:24:44"
+}
+2025-10-07 13:24:44 | INFO     | Attempt 1/3 sending DPR...
+2025-10-07 13:24:44 | WARNING  | ⚠️ HTTP 404: {"code":404,"message":"The requested webhook \"dpr-receiver\" is not registered.","hint":"Click the 'Execute workflow' button on the canvas, then try again. (In test mode, the webhook only works for one call after you click this button)"}
+2025-10-07 13:24:47 | INFO     | Attempt 2/3 sending DPR...
+2025-10-07 13:24:47 | WARNING  | ⚠️ HTTP 404: {"code":404,"message":"The requested webhook \"dpr-receiver\" is not registered.","hint":"Click the 'Execute workflow' button on the canvas, then try again. (In test mode, the webhook only works for one call after you click this button)"}
+2025-10-07 13:24:50 | INFO     | Attempt 3/3 sending DPR...
+2025-10-07 13:24:50 | WARNING  | ⚠️ HTTP 404: {"code":404,"message":"The requested webhook \"dpr-receiver\" is not registered.","hint":"Click the 'Execute workflow' button on the canvas, then try again. (In test mode, the webhook only works for one call after you click this button)"}
+2025-10-07 13:24:53 | ERROR    | 🚨 All attempts failed. Check webhook or server logs.
+2025-10-07 13:24:53 | INFO     | ─────────────────────────────────────────────
+2025-10-07 13:24:53 | INFO     | 🏁 Process Finished
+
+2025-10-07 13:25:27 | INFO     | 📤 Starting Auto-DPR Send Process...
+2025-10-07 13:25:27 | INFO     | ─────────────────────────────────────────────
+2025-10-07 13:25:27 | INFO     | Generated DPR:
+2025-10-07 13:25:27 | INFO     | {
+  "date": "2025-10-07",
+  "tasks_completed": [
+    "Add database persistence for DPR",
+    "Integrate Slack notification",
+    "Deploy n8n and Python app via Docker"
+  ],
+  "issues_faced": [
+    "Slow webhook response"
+  ],
+  "next_plan": [
+    "Schedule DPR at 6 PM daily",
+    "Add daily summary email",
+    "Add Slack notifications"
+  ],
+  "sent_at": "2025-10-07 13:25:27"
+}
+2025-10-07 13:25:27 | INFO     | Attempt 1/3 sending DPR...
+2025-10-07 13:25:27 | INFO     | ✅ DPR sent successfully!
+2025-10-07 13:25:27 | INFO     | Response: {"message":"Workflow was started"}
+2025-10-07 13:25:27 | INFO     | ─────────────────────────────────────────────
+2025-10-07 13:25:27 | INFO     | 🏁 Process Finished
+
+2025-10-07 13:25:37 | INFO     | 📤 Starting Auto-DPR Send Process...
+2025-10-07 13:25:37 | INFO     | ─────────────────────────────────────────────
+2025-10-07 13:25:37 | INFO     | Generated DPR:
+2025-10-07 13:25:37 | INFO     | {
+  "date": "2025-10-07",
+  "tasks_completed": [
+    "Add database persistence for DPR",
+    "Improve error handling and logging",
+    "Test Google Sheets integration"
+  ],
+  "issues_faced": [
+    "Docker container restart delay"
+  ],
+  "next_plan": [
+    "Integrate with Google Sheets API",
+    "Add Slack notifications"
+  ],
+  "sent_at": "2025-10-07 13:25:37"
+}
+2025-10-07 13:25:37 | INFO     | Attempt 1/3 sending DPR...
+2025-10-07 13:25:37 | INFO     | ✅ DPR sent successfully!
+2025-10-07 13:25:37 | INFO     | Response: {"message":"Workflow was started"}
+2025-10-07 13:25:37 | INFO     | ─────────────────────────────────────────────
+2025-10-07 13:25:37 | INFO     | 🏁 Process Finished
+
+2025-10-07 13:30:10 | INFO     | 📤 Starting Auto-DPR Send Process...
+2025-10-07 13:30:10 | INFO     | ─────────────────────────────────────────────
+2025-10-07 13:30:10 | INFO     | Generated DPR:
+2025-10-07 13:30:10 | INFO     | {
+  "date": "2025-10-07",
+  "tasks_completed": [
+    "Deploy n8n and Python app via Docker",
+    "Test Google Sheets integration"
+  ],
+  "issues_faced": [
+    "Slow webhook response"
+  ],
+  "next_plan": [
+    "Add Slack notifications",
+    "Add daily summary email"
+  ],
+  "sent_at": "2025-10-07 13:30:10"
+}
+2025-10-07 13:30:10 | INFO     | Attempt 1/3 sending DPR to http://localhost:5678/webhook-test/dpr-receiver/daily with {'user': 'Sara', 'type': 'summary'}
+2025-10-07 13:30:10 | WARNING  | ⚠️ HTTP 404: {"code":404,"message":"The requested webhook \"dpr-receiver/daily\" is not registered.","hint":"Click the 'Execute workflow' button on the canvas, then try again. (In test mode, the webhook only works for one call after you click this button)"}
+2025-10-07 13:30:13 | INFO     | Attempt 2/3 sending DPR to http://localhost:5678/webhook-test/dpr-receiver/daily with {'user': 'Sara', 'type': 'summary'}
+2025-10-07 13:30:13 | WARNING  | ⚠️ HTTP 404: {"code":404,"message":"The requested webhook \"dpr-receiver/daily\" is not registered.","hint":"Click the 'Execute workflow' button on the canvas, then try again. (In test mode, the webhook only works for one call after you click this button)"}
+2025-10-07 13:30:16 | INFO     | Attempt 3/3 sending DPR to http://localhost:5678/webhook-test/dpr-receiver/daily with {'user': 'Sara', 'type': 'summary'}
+2025-10-07 13:30:16 | WARNING  | ⚠️ HTTP 404: {"code":404,"message":"The requested webhook \"dpr-receiver/daily\" is not registered.","hint":"Click the 'Execute workflow' button on the canvas, then try again. (In test mode, the webhook only works for one call after you click this button)"}
+2025-10-07 13:30:19 | ERROR    | 🚨 All attempts failed. Check webhook or server logs.
+2025-10-07 13:30:19 | INFO     | ─────────────────────────────────────────────
+2025-10-07 13:30:19 | INFO     | 🏁 Process Finished
+
+2025-10-07 13:30:23 | INFO     | 📤 Starting Auto-DPR Send Process...
+2025-10-07 13:30:23 | INFO     | ─────────────────────────────────────────────
+2025-10-07 13:30:23 | INFO     | Generated DPR:
+2025-10-07 13:30:23 | INFO     | {
+  "date": "2025-10-07",
+  "tasks_completed": [
+    "Improve error handling and logging",
+    "Refactor automation scripts",
+    "Optimize webhook response time"
+  ],
+  "issues_faced": [
+    "Invalid payload format error",
+    "Docker container restart delay"
+  ],
+  "next_plan": [
+    "Enable automatic retry system",
+    "Integrate with Google Sheets API",
+    "Add daily summary email"
+  ],
+  "sent_at": "2025-10-07 13:30:23"
+}
+2025-10-07 13:30:23 | INFO     | Attempt 1/3 sending DPR...
+2025-10-07 13:30:23 | INFO     | ✅ DPR sent successfully!
+2025-10-07 13:30:23 | INFO     | Response: {"message":"Workflow was started"}
+2025-10-07 13:30:23 | INFO     | ─────────────────────────────────────────────
+2025-10-07 13:30:23 | INFO     | 🏁 Process Finished
+
