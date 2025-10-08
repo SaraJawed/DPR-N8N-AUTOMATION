@@ -33,8 +33,3 @@ Endpoint example:
 POST http://localhost:5678/webhook-test/dpr_trigger
 
 ---
-
-Would you like me to:
-- make a **downloadable `README.md` file** (so you can upload directly to GitHub),  
-or  
-- also include a **`docker-compose.yml` example** block inside the README for clarity?
